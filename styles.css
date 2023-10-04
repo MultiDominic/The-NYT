@@ -1,0 +1,339 @@
+* {
+    box-sizing: border-box;
+  }
+  
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+  
+.clear {
+    clear: both;
+}
+  
+
+header {
+    height: 200px;
+    clear: both;
+}
+
+section {
+    height: 1000px;
+    width: 60%;
+    float: left;
+}
+
+aside {
+    height: 1000px;
+    width: 40%;
+    float: left;
+}
+
+.topheader {
+    height: 50px;
+    width: 100%;
+    clear: both;
+    float: left;
+}
+
+
+.middleheader {
+    height: 150px;
+    width: 100%;
+    clear: both;
+    float: left;
+    border-bottom: 1px solid lightgray ;
+}
+
+.bottomheader {
+    height: 50px;
+    width: 100%;
+    clear: both;
+    float: left;
+}
+
+.topheader li {
+    list-style: none;
+    float: left;
+}
+
+.topheader li a {
+    text-decoration: none;
+    color: black;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.topheader li a img {
+    list-style: none;
+    float: left;
+    margin-left: 12px;
+    margin-right: 10px;
+    margin-top: -6px;
+}
+
+.topheader li a button {
+    text-decoration: none;
+    float: left;
+    margin-left: 20px;
+    color: white;
+    background-color: rgb(135, 189, 202);
+    padding: 5px 10px 5px 10px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -8px;
+}
+
+.mid {
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+}
+
+.mid1 {
+    list-style: none;
+    float: left;
+    margin-left: 600px;
+}
+
+.mid5 {
+    list-style: none;
+    float: left;
+    margin-left: 10px;
+    margin-right: 400px;
+    margin-top: -2px;
+}
+
+
+.middleheader li {
+    list-style: none;
+    float: left;
+}
+
+.middleheader li a {
+    text-decoration: none;
+    color: black;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10px;
+}
+
+.middleheader li img {
+    list-style: none;
+    float: left;
+    height: 150px;
+    width: 800px;
+    margin-top: -20px;
+    margin-left: 200px;
+    margin-right: 350px;
+}
+
+.bottomheader li {
+    list-style: none;
+    float: left;
+    border-bottom: 1px black solid;
+}
+
+.bottomheader li a {
+    text-decoration: none;
+    color: black;
+    float: left;
+    margin-right: 10px;
+    margin-left: 28px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 4px;
+    margin-top: 10px;
+}
+
+
+.maintop {
+    height: 500px;
+    width: 100%;
+    float: left;
+    border-right: 1px solid black;
+}
+
+.mainbot {
+    height: 500px;
+    width: 100%;
+    float: left;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.maintop li {
+    list-style: none;
+    float: left;
+}
+
+.maintop li a {
+    text-decoration: none;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 8px;
+}
+
+.title {
+    float: left;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 700;
+}
+
+.grey {
+    color: grey;
+    float: left;
+}
+.maintop span {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.maintop img {
+    float: left;
+}
+
+.maintop section {
+    width: 40%;
+    height: 500px;
+}
+
+.dots {
+    margin-left: 320px;
+}
+
+.mainbot li {
+    list-style: none;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.mainbot li a {
+    text-decoration: none;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 8px;
+}
+
+.mainbot span {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+}
+
+.maintbot img {
+    float: left;
+}
+
+.mainbot section {
+    width: 40%;
+    float: left;
+    height: 500px;
+}
+
+.caption {
+    color: grey;
+    margin-left: 614px;
+}
+
+aside section{
+    width: 100%;
+    height: 333px;
+}
+
+.atop {
+    float: left;
+}
+
+.atop h2 {
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.atop p {
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    margin-left: 10px;
+}
+
+.amiddle {
+    float: left;
+}
+
+.amiddle section {
+    float: left;  
+    width: 50%;
+}
+
+.amiddle section h3 {
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    font-size: 16px;
+    width: 80%;
+    margin-left: 30px;
+}
+
+.amiddle section span {
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    font-size: 14px;
+    color: grey;
+    margin-left: 30px;
+}
+
+
+.abot {
+    border-top: 1px solid black;
+}
+.abot section {
+    float: left;  
+    width: 100%;
+    height: 50%;
+}
+
+.abot h4 {
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 1px;
+}
+
+.abot h2 {
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    margin-left: -62px;
+    margin-top: 62px;
+}
+
+
+.abot span {
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    margin-left: -62px;
+    margin-top: 28px;
+}
+
+.abot p {
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    margin-left: -298px;
+    margin-top: 120px;
+}
+
+.abot img {
+    float: left;
+    margin-top: 30px;
+}
+
+.abot section section {
+    width: 75%;
+    height: 100%;
+}
